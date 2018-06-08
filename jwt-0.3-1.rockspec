@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "jwt"
-version = "0.3-0"
+version = "0.3-1"
 -- LuaDist source
 source = {
-  tag = "0.3-0",
+  tag = "0.3-1",
   url = "git://github.com/LuaDist-testing/jwt.git"
 }
 -- Original source
