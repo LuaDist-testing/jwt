@@ -1,9 +1,17 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "jwt"
 version = "0.3-2"
+-- LuaDist source
 source = {
-  url = "https://github.com/Olivine-Labs/lua-jwt/archive/v0.3.tar.gz",
-  dir = "lua-jwt-0.3"
+  tag = "0.3-2",
+  url = "git://github.com/LuaDist-testing/jwt.git"
 }
+-- Original source
+-- source = {
+--   url = "https://github.com/Olivine-Labs/lua-jwt/archive/v0.3.tar.gz",
+--   dir = "lua-jwt-0.3"
+-- }
 description = {
   summary = "A library for encoding and decoding json web tokens.",
   detailed = [[
