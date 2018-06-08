@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "jwt"
-version = "0.1-3"
+version = "0.1-4"
 -- LuaDist source
 source = {
-  tag = "0.1-3",
+  tag = "0.1-4",
   url = "git://github.com/LuaDist-testing/jwt.git"
 }
 -- Original source
@@ -15,7 +15,6 @@ source = {
 description = {
   summary = "A library for encoding and decoding json web tokens.",
   detailed = [[
-    
   ]],
   homepage = "",
   license = "MIT <http://opensource.org/licenses/MIT>"
@@ -23,7 +22,7 @@ description = {
 dependencies = {
   "lua >= 5.1",
   "busted >= 1.7-1",
-  "sha2 >= 0.2.0-1",
+  "luacrypto >= 0.3.2-1",
 }
 build = {
   type = "builtin",
